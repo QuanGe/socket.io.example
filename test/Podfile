@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'test' do
+    pod 'Socket.IO-Client-Swift' ,:git => 'https://github.com/socketio/socket.io-client-swift.git',:commit => '1949b1fd487abb4301f57c608645357b8195aa2e'
+end
